@@ -15,6 +15,11 @@ Create a `.env` file in your project root and add your OpenAI API key:
 ```plaintext
 OPENAI_API_KEY=your_api_key_here
 ```
+ OR Set up your OpenAI API key:
+   ```
+   export OPENAI_API_KEY=your_api_key_here
+   ```
+
 
 Make sure to add `.env` to your `.gitignore` file to keep your API key secure.
 

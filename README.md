@@ -139,10 +139,6 @@ The tool will generate tests relative to the current project structure and run t
 
 - `-o, --output <directory>`: Specify the output directory for test files (default: "__tests__")
 
-## Requirements
-
-- Node.js 12 or higher
-- Jest installed in your project
 
 ## How It Works
 

@@ -1,0 +1,37 @@
+{
+  "name": "testagentai",
+  "version": "1.0.0",
+  "description": "AI-powered test generation tool",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node packages/server/src/index.ts",
+    "cli": "ts-node packages/cli/src/index.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "ai",
+    "testing",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "openai": "^4.0.0",
+    "winston": "^3.14.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^18.7.18",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.5.4"
+  }
+}
